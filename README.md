@@ -3,8 +3,11 @@ This repository contains cleaned versions of the data in
 https://github.com/asapdiscovery/COVID_moonshot_submissions.
 
 ## Files
-`cdd_achiral_enantiopure_dates_2023_10_18_filt.csv`: All available data as of October
-10, 2023, filtered to contain only achiral and enantiopure molecules.
+* `cdd_noncovalent_dates_2023_10_18_unfiltered_clean.csv`: All noncovalent available
+data as of October 10, 2023, cleaned to remove data without a noted SMILES string or
+IC50 value
+* `cdd_achiral_enantiopure_dates_2023_10_18_filt.csv`: All noncovalent available data as
+of October 10, 2023, filtered to contain only achiral and enantiopure molecules.
 
 ## Column Headers
 A brief explanation of each column present in the CSV files.
