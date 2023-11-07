@@ -3,6 +3,13 @@ This repository contains cleaned versions of the data in
 https://github.com/asapdiscovery/COVID_moonshot_submissions. This data has all been
 downloaded from the COVID Moonshot CDD Vault.
 
+The IC50 measurements in this repository were measured using the fluorescence inhibition
+assay described in
+> The COVID Moonshot Consortium, John Chodera, Alpha Lee, Nir London, and Frank von
+Delft. “Open Science Discovery of Oral Non-Covalent SARS-COV-2 Main Protease
+Inhibitors.” ChemRxiv, October 19, 2021.
+https://doi.org/10.26434/chemrxiv-2021-585ks-v2.
+
 On `suspected_SMILES`: Note that many of the enantiopure compounds on this project were
 obtained by chiral separation, and thus the compounds are often obtained as a single
 enantiomer with unknown absolute stereochemistry. The `suspected_SMILES` column
