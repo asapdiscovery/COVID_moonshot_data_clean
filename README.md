@@ -13,11 +13,16 @@ of October 10, 2023, filtered to contain only achiral and enantiopure molecules.
 A brief explanation of each column present in the CSV files.
 * `Canonical_PostEra_ID`: Molecule's canonical name
 * `suspected_SMILES`: SMILES string of the synthesized molecule
-* `IC50_(µM)`: Experimental IC50 value, in µM units
+* `IC50_(µM)`: Experimental IC50 value, in µM units. Unless otherwise noted in the file
+description, these values are semi-quantitative, meaning that some values may have been
+outside the range of the assay used. The semi-quantitativeness of a given measurement is
+given by the `Semiquant` field
 * `IC50_CI_(Lower)_(µM)`: Lower bound of the 95% CI of the experimental IC50 value,
 in µM units
 * `IC50_CI_(Upper)_(µM)`: Upper bound of the 95% CI of the experimental IC50 value,
 in µM units
 * `Hill_slope`: Calculated slope of the Hill equation for this measurement
 * `Curve_class`: Calculated curve class for this measurement
-* `In_range`: Whether the given measurement was above, below, or within the assay range
+* `Semiquant`: Whether the given compound was too strong of a binder to be resolved
+("Strong"), too weak of a binder to be resolved ("Weak"), or within the assay range
+("Quant")
