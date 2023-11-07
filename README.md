@@ -1,6 +1,16 @@
 # COVID_moonshot_data_clean
 This repository contains cleaned versions of the data in
-https://github.com/asapdiscovery/COVID_moonshot_submissions.
+https://github.com/asapdiscovery/COVID_moonshot_submissions. This data has all been
+downloaded from the COVID Moonshot CDD Vault.
+
+On `suspected_SMILES`: Note that many of the enantiopure compounds on this project were
+obtained by chiral separation, and thus the compounds are often obtained as a single
+enantiomer with unknown absolute stereochemistry. The `suspected_SMILES` column
+represents the understanding of the actual identity of the compound given the current
+information, which explains the frequent use of enhanced/relative stereochemistry
+representations. Keep in mind that the `suspected_SMILES` is often not the same as the
+`registration_SMILES`, since compounds must be registered as a real (non-relatively
+defined) compound on this project.
 
 ## Files
 * `cdd_noncovalent_dates_2023_10_18_unfiltered_clean.csv`: All noncovalent available
