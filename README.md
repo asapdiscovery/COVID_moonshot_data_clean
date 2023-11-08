@@ -1,5 +1,5 @@
 # COVID_moonshot_data_clean
-This repository contains cleaned versions of the data in
+This repository contains cleaned up versions of the data in
 https://github.com/asapdiscovery/COVID_moonshot_submissions. This data has all been
 downloaded from the COVID Moonshot CDD Vault.
 
@@ -20,9 +20,9 @@ representations. Keep in mind that the `suspected_SMILES` is often not the same 
 defined) compound on this project.
 
 ## Files
-* `cdd_noncovalent_dates_2023_10_18_unfiltered_clean.csv`: All noncovalent available
-data as of October 10, 2023, cleaned to remove data without a noted SMILES string or
-IC50 value
+* `cdd_noncovalent_dates_2023_10_18_filt.csv`: All noncovalent available
+data as of October 10, 2023, filtered to remove data without a noted SMILES string or
+IC50 value. Note that some of the entries in this dataset are racemates.
 * `cdd_achiral_enantiopure_dates_2023_10_18_filt.csv`: All noncovalent available data as
 of October 10, 2023, filtered to contain only achiral and enantiopure molecules.
 
