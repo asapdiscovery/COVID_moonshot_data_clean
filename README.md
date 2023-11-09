@@ -1,5 +1,5 @@
 # COVID_moonshot_data_clean
-This repository contains cleaned up versions of the data in
+This repository contains comp chem/ML-ready versions of the data in
 https://github.com/asapdiscovery/COVID_moonshot_submissions. This data has all been
 downloaded from the COVID Moonshot CDD Vault.
 
