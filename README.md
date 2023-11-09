@@ -8,8 +8,8 @@ assay described in
 > Melissa L. Boby,  Daren Fearon, Matteo Ferla, Mihajlo Filep, Lizbé Koekemoer, 
 Matthew C. Robinson, The COVID Moonshot Consortium, John D. Chodera,  Alpha A Lee, 
 Nir London, Annette von Delft, Frank von Delft. “Open Science Discovery of Potent 
-Non-Covalent SARS-CoV-2 Main Protease Inhibitors.” BioRxiv, September 06, 2023.
-https://doi.org/10.26434/chemrxiv-2021-585ks-v2.
+Non-Covalent SARS-CoV-2 Main Protease Inhibitors.” bioRxiv, September 06, 2023.
+[https://www.biorxiv.org/content/10.1101/2020.10.29.339317v5](https://www.biorxiv.org/content/10.1101/2020.10.29.339317v5).
 
 On `suspected_SMILES`: Note that many of the enantiopure compounds on this project were
 obtained by chiral separation, and thus the compounds are often obtained as a single
