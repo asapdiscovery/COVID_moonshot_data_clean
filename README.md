@@ -5,19 +5,18 @@ downloaded from the COVID Moonshot CDD Vault.
 
 The IC50 measurements in this repository were measured using the fluorescence inhibition
 assay described in
-> The COVID Moonshot Consortium, John Chodera, Alpha Lee, Nir London, and Frank von
-Delft. “Open Science Discovery of Oral Non-Covalent SARS-COV-2 Main Protease
-Inhibitors.” ChemRxiv, October 19, 2021.
+> Melissa L. Boby,  Daren Fearon, Matteo Ferla, Mihajlo Filep, Lizbé Koekemoer, 
+Matthew C. Robinson, The COVID Moonshot Consortium, John D. Chodera,  Alpha A Lee, 
+Nir London, Annette von Delft, Frank von Delft. “Open Science Discovery of Potent 
+Non-Covalent SARS-CoV-2 Main Protease Inhibitors.” BioRxiv, September 06, 2023.
 https://doi.org/10.26434/chemrxiv-2021-585ks-v2.
 
 On `suspected_SMILES`: Note that many of the enantiopure compounds on this project were
 obtained by chiral separation, and thus the compounds are often obtained as a single
 enantiomer with unknown absolute stereochemistry. The `suspected_SMILES` column
-represents the understanding of the actual identity of the compound given the current
+represents the current understanding of the actual identity of the compound given the current
 information, which explains the frequent use of enhanced/relative stereochemistry
-representations. Keep in mind that the `suspected_SMILES` is often not the same as the
-`registration_SMILES`, since compounds must be registered as a real (non-relatively
-defined) compound on this project.
+representations. 
 
 ## Files
 * `cdd_noncovalent_dates_2023_10_18_filt.csv`: All noncovalent available
@@ -43,3 +42,5 @@ in µM units
 * `Semiquant`: Whether the given compound was too strong of a binder to be resolved
 ("Strong"), too weak of a binder to be resolved ("Weak"), or within the assay range
 ("Quant")
+
+ 
